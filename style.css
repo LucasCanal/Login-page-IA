@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    margin: 0 auto;
+    padding: 10px;
+    max-width: 1200px;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #fff 50%, #e5e5e57d 50%);;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 17px;
+}
+
+.image-header {
+    width: 70px;
+}
+
+.image-home {
+    margin-left: 50px;
+}
+
+li {
+    display: inline-block;
+    color: #000000af;
+    margin: 25px;
+}
+
+h1 {
+    font-size: 27px;
+    color: #007AFF;
+}
+
+p {
+    color: #0000009d; 
+    margin-bottom: 30px;
+}
+
+.form-area {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+#email-form {
+    width: 400px;
+    padding: 15px;
+    border: 0.5px solid #0000009d;
+}
+
+#password-form {
+    width: 400px;
+    padding: 15px;
+    border: 0.5px solid #0000009d;
+}
+
+.line {
+    position: absolute;
+    width: 44.1px;
+    margin-top: 23px;
+    margin-left: -22px;
+    background: #007AFF;
+    border: 2.5px solid #007AFF;
+    transform: rotate(-90deg);
+}
+
+.text-form {
+    text-decoration: none;
+    color: #0000009d;
+    padding: 40px;
+    gap: 30px;
+}
+
+.btn {
+    margin-top: 50px;
+}
+
+.btn-sign {
+    background-color: #fff;
+    color: #007AFF;
+    border: 1px solid #007AFF;
+    margin-left: 30px;
+    padding: 15px;
+    width: 110px;
+    cursor: pointer;
+}
+
+.btn-login {
+    background-color: #007AFF;
+    color: #fff;
+    border: 1px solid #007AFF; ;
+    padding: 15px;
+    width: 110px;
+    cursor: pointer;
+    box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.25);
+}
+
+header li:hover {
+    color: #007AFF;
+}
+
+header i {
+    cursor: pointer;
+    font-size: 20px;
+    color: #0000009d;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+}
+
+.footer {
+    margin-top: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    padding: 19px;
+    color: #007AFF;
+}
